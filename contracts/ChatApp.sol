@@ -45,7 +45,7 @@ contract ChatApp
 
         userList[msg.sender].name= name;
 
-        getAllUsers.push(AllUserStruct(name,msg.sender));
+        getAllUsers.push(AllUserStruck(name,msg.sender));
     }
 
     // Get Username
